@@ -1,0 +1,20 @@
+{
+    "remotePath": "/root/jinmo_be",
+    "host": "120.77.66.17",
+    "username": "root",
+    "password": "CPez2017.",
+    "port": 22,
+    "secure": false,
+    "protocol": "sftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store",
+        "\\node_modules"
+    ]
+}
