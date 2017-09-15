@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "export PORT=80 && supervisor ./bin/www"
+    "start_dev": "export PORT=8080 && supervisor ./bin/www",
+    "start_pro": "export PORT=8080 && forever start ./bin/www",
+    "stop_pro": "export PORT=8080 && forever stop ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
